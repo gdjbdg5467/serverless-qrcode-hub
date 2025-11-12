@@ -9,6 +9,9 @@
   "devDependencies": {
     "wrangler": "^4.0.0"
   },
+  "dependencies": {
+    "qrcode": "^1.5.3"  // 用于生成二维码
+  },
   "pnpm": {
     "onlyBuiltDependencies": [
       "core-js-pure",
