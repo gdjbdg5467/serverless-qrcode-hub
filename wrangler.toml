@@ -6,7 +6,7 @@ compatibility_date = "2025-03-10"
 binding = "DB"
 database_name = "qrcode_hub"
 # 注意：将下面的 id 替换为你自己拷贝的 D1 存储的 id 才能正常使用！
-database_id = "3eacb2ca-7081-46e6-952a-9f0f1178c676"
+database_id = "4b43f571-aebc-4dfd-8d3a-4a917c5e7407"
 
 [triggers]
 crons = ["0 2 */1 * *"]
@@ -22,3 +22,11 @@ crons = ["*/10 * * * * *"]
 [assets]
 directory = "./dist"
 binding = "ASSETS"
+
+[vars]
+TG_BOT_TOKEN = "8331490736:AAFLySlIla9IPlcwKkF-rF2praB4qdZxBAI"  # 从 @BotFather 获取的 Token
+TG_ADMIN_ID = "6600692426"   # 管理员的 TG 用户 ID（可选）
+
+[env.dev.vars]
+TG_BOT_TOKEN = "dev-token"
+TG_ADMIN_ID = "dev-admin-id"
