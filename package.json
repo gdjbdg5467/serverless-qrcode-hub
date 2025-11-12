@@ -10,7 +10,7 @@
     "wrangler": "^4.0.0"
   },
   "dependencies": {
-    "qrcode": "^1.5.3"  // 用于生成二维码
+    "qrcode": "^1.5.3"  
   },
   "pnpm": {
     "onlyBuiltDependencies": [
